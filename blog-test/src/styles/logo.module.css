@@ -1,0 +1,16 @@
+.wrapper {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  transition: font-weight 400ms, transform 400ms;
+  will-change: transform;
+  cursor: pointer;
+}
+
+@media (min-width: 35rem) {
+  .wrapper {
+    font-size: 1rem;
+  }
+}

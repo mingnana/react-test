@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: var(--content-width);
+  padding: 64px var(--viewport-padding);
+  margin: 0 auto;
+}
+
+.mainHeading {
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.mainImage {
+  width: 350px;
+  margin-top: 50px;
+  border-radius: 8px;
+}

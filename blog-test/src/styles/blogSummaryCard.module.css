@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  max-width: 750px;
+  margin-bottom: 58px;
+}
+
+.title {
+  display: block;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: color 200ms;
+  margin-bottom: 0.25rem;
+}
+
+.wrapper time {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.wrapper p {
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+.arrow {
+  display: inline-block;
+  font-family: 'Monaco', monospace;
+  transition: transform 200ms;
+  font-weight: 400;
+}
+.continueReadingLink {
+  display: block;
+  font-weight: 600;
+  margin-top: 18px;
+}
+.continueReadingLink:hover {
+  text-underline-offset: 0.125em;
+}
+.continueReadingLink:hover .arrow {
+  transform: translateX(4px);
+}
